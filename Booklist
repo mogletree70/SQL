@@ -1,6 +1,6 @@
-CREATE TABLE booklist (ID INTEGER PRIMARY KEY,Name TEXT, Rating TEXT);
+CREATE TABLE booklist (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
 
-INSERT INTO booklist VALUES (1, "Where the Crawdads Sing", "01");
-INSERT INTO booklist VALUES (2, "It Ends With Us", "02");
-INSERT INTO booklist VALUES (3, "It Starts With Us", "03");
+INSERT INTO booklist VALUES (1, "Where the Crawdads Sing", 1),
+(2, "It Ends With US", 2),
+(3, "It Starts With Us", 3);
 SELECT * FROM booklist;
